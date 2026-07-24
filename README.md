@@ -14,27 +14,31 @@
 
 ## 安装
 
-把 `.claude/skills/literature-review/` 整个目录放到你的项目（或用户级 `~/.claude/skills/`）下即可：
+这个仓库本身就是一个 Claude Code plugin marketplace。在 Claude Code 里执行：
 
 ```
-.claude/
-└── skills/
-    └── literature-review/
-        ├── SKILL.md
-        └── references/
-            └── prompts.md
+/plugin marketplace add yzbbds520/literature-review-skill
+/plugin install literature-review@yzbbds520-skills
 ```
 
-clone 本仓库后直接拷贝这个目录，Claude Code 会自动识别。
+装好后重启 Claude Code 即可。
+
+如果你不想走 plugin 方式，也可以直接把 skill 目录拷进自己项目：clone 本仓库后，把 `plugins/literature-review/skills/literature-review/` 整个目录复制到你项目的 `.claude/skills/` 下（或用户级 `~/.claude/skills/`），Claude Code 会自动识别。
 
 ## 触发
 
 在 Claude Code 里说「帮我写文献综述」「写一篇 XXX 的国内外研究现状」「literature review」之类即可触发。
 
-## 结构
+## 目录结构
 
-- `SKILL.md` —— 主流程：三条铁律、交互总则、Phase 0～3 工作流、LaTeX 输出流程、执行检查清单。
-- `references/prompts.md` —— 四部分的提示词正文和《行文要求》，动笔前按需加载。
+```
+.claude-plugin/marketplace.json          # 市场目录
+plugins/literature-review/
+├── .claude-plugin/plugin.json           # 插件清单
+└── skills/literature-review/
+    ├── SKILL.md                         # 主流程:三条铁律、交互总则、Phase 0~3、LaTeX 流程、检查清单
+    └── references/prompts.md            # 四部分提示词正文 +《行文要求》,动笔前按需加载
+```
 
 ## License
 

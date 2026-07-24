@@ -1,0 +1,17 @@
+{
+  "name": "literature-review",
+  "version": "0.1.0",
+  "description": "文献综述生成 Skill:分四部分生成(研究背景与目的、文献梳理与分析、研究现状总结与评述、参考文献),开场对齐后一次成稿,文献强制可核验、严防编造引用,内置压 AI 腔的行文要求,支持对话/Markdown/Word/LaTeX 输出。",
+  "author": {
+    "name": "yzbbds520"
+  },
+  "license": "MIT",
+  "keywords": [
+    "literature-review",
+    "文献综述",
+    "academic-writing",
+    "research",
+    "citation",
+    "chinese"
+  ]
+}

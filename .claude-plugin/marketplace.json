@@ -1,0 +1,17 @@
+{
+  "name": "yzbbds520-skills",
+  "owner": {
+    "name": "yzbbds520"
+  },
+  "description": "yzbbds520 的 Claude Code Skills 市场",
+  "plugins": [
+    {
+      "name": "literature-review",
+      "source": "./plugins/literature-review",
+      "description": "文献综述生成 Skill:分四部分生成、前期对齐后一次成稿、文献强制可核验、内置压 AI 腔的行文要求,支持对话/Markdown/Word/LaTeX 输出",
+      "version": "0.1.0",
+      "category": "skill",
+      "tags": ["literature-review", "文献综述", "academic-writing", "research", "chinese"]
+    }
+  ]
+}
