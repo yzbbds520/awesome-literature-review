@@ -14,30 +14,31 @@
 
 ## 安装
 
-这个仓库本身就是一个 Claude Code plugin marketplace。在 Claude Code 里执行：
+这是一个标准的 Agent Skill 仓库，`SKILL.md` 就在根目录。
+
+**从 GitHub 引入**（网页端 Agent / ClawsGO 等）：把仓库地址填进"从 GitHub 引入"，拉取后点安装即可。
 
 ```
-/plugin marketplace add yzbbds520/literature-review-skill
-/plugin install literature-review@yzbbds520-skills
+https://github.com/yzbbds520/literature-review-skill
 ```
 
-装好后重启 Claude Code 即可。
+**手动放入项目**：clone 本仓库后，把 `SKILL.md` 和 `references/` 一起拷进你项目的 `.claude/skills/literature-review/` 下（或用户级 `~/.claude/skills/literature-review/`），Claude Code 会自动识别。
 
-如果你不想走 plugin 方式，也可以直接把 skill 目录拷进自己项目：clone 本仓库后，把 `plugins/literature-review/skills/literature-review/` 整个目录复制到你项目的 `.claude/skills/` 下（或用户级 `~/.claude/skills/`），Claude Code 会自动识别。
+```
+.claude/skills/literature-review/
+├── SKILL.md
+└── references/prompts.md
+```
 
 ## 触发
 
-在 Claude Code 里说「帮我写文献综述」「写一篇 XXX 的国内外研究现状」「literature review」之类即可触发。
+在 Agent 里说「帮我写文献综述」「写一篇 XXX 的国内外研究现状」「literature review」之类即可触发。
 
 ## 目录结构
 
 ```
-.claude-plugin/marketplace.json          # 市场目录
-plugins/literature-review/
-├── .claude-plugin/plugin.json           # 插件清单
-└── skills/literature-review/
-    ├── SKILL.md                         # 主流程:三条铁律、交互总则、Phase 0~3、LaTeX 流程、检查清单
-    └── references/prompts.md            # 四部分提示词正文 +《行文要求》,动笔前按需加载
+SKILL.md               # 主流程:三条铁律、交互总则、Phase 0~3、LaTeX 流程、检查清单
+references/prompts.md  # 四部分提示词正文 +《行文要求》,动笔前按需加载
 ```
 
 ## License
