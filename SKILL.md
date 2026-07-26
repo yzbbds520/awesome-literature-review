@@ -1,5 +1,5 @@
 ---
-name: literature-review
+name: awesome-literature-review
 description: 中文学术文献综述全流程生成。分四部分(研究背景与目的、文献梳理与分析、研究现状总结与评述、参考文献),开场先对齐题目、文献来源、输出格式,文献经核验后一次性写完整篇再输出;文献可用户已有材料抽取、自己粘贴或 AI 联网搜索,搜索结果必须带真实出处、经核验才写入正文,严防编造引用;参考文献默认国标 GB/T 7714-2015;支持对话/Markdown/Word/LaTeX 输出,可选调用 Image2 生成文献分类框架图。本 skill 面向叙述性文献综述,不做元分析和统计合并,不做 PRISMA 全流程系统综述的筛选与偏倚评价。触发:文献综述、写综述、literature review、帮我写文献综述、国内外研究现状。
 allowed-tools:
   - Read

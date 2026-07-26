@@ -1,4 +1,4 @@
-# 文献综述生成 Skill（literature-review）
+# 文献综述生成 Skill（awesome-literature-review）
 
 一个 [Claude Code](https://docs.claude.com/en/docs/claude-code) 的 Skill，用来分四部分生成一篇结构完整的文献综述：**研究背景与目的 → 文献梳理与分析 → 研究现状总结与评述 → 参考文献**。
 
@@ -26,10 +26,10 @@
 https://github.com/yzbbds520/literature-review-skill
 ```
 
-**手动放入项目**：clone 本仓库后，把 `SKILL.md` 和 `references/` 一起拷进你项目的 `.claude/skills/literature-review/` 下（或用户级 `~/.claude/skills/literature-review/`），Claude Code 会自动识别。
+**手动放入项目**：clone 本仓库后，把 `SKILL.md` 和 `references/` 一起拷进你项目的 `.claude/skills/awesome-literature-review/` 下（或用户级 `~/.claude/skills/awesome-literature-review/`），Claude Code 会自动识别。
 
 ```
-.claude/skills/literature-review/
+.claude/skills/awesome-literature-review/
 ├── SKILL.md
 └── references/
     ├── prompts.md
