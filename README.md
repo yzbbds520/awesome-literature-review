@@ -23,7 +23,7 @@
 **从 GitHub 引入**（网页端 Agent / ClawsGO 等）：把仓库地址填进"从 GitHub 引入"，拉取后点安装即可。
 
 ```
-https://github.com/yzbbds520/literature-review-skill
+https://github.com/yzbbds520/awesome-literature-review
 ```
 
 **手动放入项目**：clone 本仓库后，把 `SKILL.md` 和 `references/` 一起拷进你项目的 `.claude/skills/awesome-literature-review/` 下（或用户级 `~/.claude/skills/awesome-literature-review/`），Claude Code 会自动识别。
