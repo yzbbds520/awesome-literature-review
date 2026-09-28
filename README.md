@@ -6,7 +6,9 @@
 
 ## 鸣谢
 
-感谢 [F-API Hub](https://www.f-api.site) 的资助支持。有 AI 使用需求的同学可以点击链接了解详情。
+<a href="https://www.f-api.site"><img src="./assets/fapi-hub-logo.png" alt="F-API Hub" width="160" /></a>
+
+感谢 [F-API Hub](https://www.f-api.site) 「学生激励计划」的资助支持。F-API Hub 是一个全球 AI 模型聚合 API 平台，把 OpenAI、Anthropic、Google 等主流厂商的模型统一接入一套 API，方便开发者按需切换、比价调用，省去逐家申请和维护多套密钥的麻烦。如果你在学习、写代码或做课程项目时有 AI 调用需求，可以点上面的链接了解一下，学生身份还能申请专属资助名额。
 
 ## 特点
 
