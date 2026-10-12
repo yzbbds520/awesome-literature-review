@@ -7,6 +7,14 @@
 ## 鸣谢
 
 <p align="center">
+  <a href="https://clawsgo.cn/"><img src="./assets/clawsgo-logo.png" alt="ClawsGO Science" width="160" /></a>
+</p>
+
+[ClawsGO Science](https://clawsgo.cn/) 是一个科研 AI Agent 平台。智能体在独立云主机上完成文献检索、代码运行、数据分析和成稿撰写，整轮研究无需人工值守；环境、命令、文件改动与文献检索均记录在动作发生的位置，可随时重放核对；网页、手机、桌面共享同一个任务状态。
+
+---
+
+<p align="center">
   <a href="https://www.f-api.site"><img src="./assets/fapi-hub-logo.png" alt="F-API Hub" width="160" /></a>
 </p>
 
